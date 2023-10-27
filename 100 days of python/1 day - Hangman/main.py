@@ -29,13 +29,6 @@ else:
 # guesses = ["_"] * len(word)
 # tries = 10
 
-# while "_" in guesses and tries > 0:
-#     print(" ".join(guesses))
-#     guess = input("Guess a letter: ")
-#     if guess in word:
-#         for i in range(len(word)):
-#             if word[i] == guess:
-#                 guesses[i] = guess
 
 
 
