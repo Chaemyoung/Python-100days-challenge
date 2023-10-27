@@ -36,9 +36,6 @@ else:
 #         for i in range(len(word)):
 #             if word[i] == guess:
 #                 guesses[i] = guess
-#     else:
-#         print("Incorrect guess. Try again.")
-#         tries -= 1
 
 
 
