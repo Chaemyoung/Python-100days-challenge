@@ -40,7 +40,5 @@ else:
 #         print("Incorrect guess. Try again.")
 #         tries -= 1
 
-# print(" ".join(guesses))
-# if "_" not in guesses:
-#     print("Congratulations! You guessed the word.")
+
 
