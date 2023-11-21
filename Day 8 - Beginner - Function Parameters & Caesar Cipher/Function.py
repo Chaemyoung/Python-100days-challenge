@@ -18,3 +18,10 @@ def hellowpeople(greet):
     print("How are u doing?")
 
 hellowpeople()
+
+# Functions with more than 1 input
+def greet_with(name, location):
+    print(f"Hellow {name}")
+    print(f"What is it like in {location}?")
+
+greet_with(location = "london",  name = "Tad")
