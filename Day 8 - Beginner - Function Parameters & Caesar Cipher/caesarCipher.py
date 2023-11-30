@@ -4,6 +4,13 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
+def caesar(start_text, shift_amount, cipher_direction):
+    end_text = ""
+    for letter in start_text:
+        position = alphabet.index(letter)
+        if cipher_direction == "encode":
+            new_position = position + shift_amount
+
 def encrypt(plain_text, shift_amount):
     for letter in plain_text:
         position = alphabet.index(letter)
