@@ -7,3 +7,16 @@ programming_dictionary = {
 print(programming_dictionary["Function"])
 
 #Adding new items to dictionary.
+programming_dictionary["Loop"] = "The action of doing something over and over again."
+
+#Create an empty dictionary
+empty_dictionary = {}
+
+#Wipe an existing dictionary
+programming_dictionary = {}
+print(programming_dictionary)
+
+#Loop through a dictionary
+for key in programming_dictionary:
+    print(key)
+    print(programming_dictionary[key])
