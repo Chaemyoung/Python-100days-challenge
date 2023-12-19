@@ -14,9 +14,11 @@ while play == True:
 
     # Ask if there are other users who want to bid
     play_again = input("is ther anybody who wants to bid? (Yes/No):  ").strip().lower()
-    if play_again == "No":
+    if play_again == "no":
         play = False
-    else:
+    elif play_again == "yes":
         continue
+    else:
+        print("What is going on")
 
 print("Bye Bye")
